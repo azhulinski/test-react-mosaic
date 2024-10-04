@@ -1,0 +1,112 @@
+html {
+    background-color: #f7f7f7;
+}
+
+.app-name {
+    font-size: 2.3rem;
+    color: rgb(66, 100, 101);
+    margin-bottom: 1rem;
+}
+
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    min-height: 440px;
+    background-color: rgb(255, 255, 255);
+    margin: 120px auto;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 12px 40px 12px 40px;
+}
+
+.cities-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.weather-temperature {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e2432;
+    text-align: center;
+}
+
+.city-name {
+    font-size: 1.5rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.date {
+    font-size: 1rem;
+    color: #777;
+    font-weight: 500;
+}
+
+.description-wind {
+    font-weight: 500;
+    color: #666;
+}
+
+.humidity {
+    font-weight: 600;
+    color: #777;
+}
+
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+}
+
+.error-message {
+    display: block;
+    text-align: center;
+    color: #d32f2f;
+    font-size: 1.5rem;
+}
+
+.weather-icon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.degree {
+    font-size: 1.2rem;
+    vertical-align: super;
+}
