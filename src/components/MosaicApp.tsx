@@ -36,7 +36,7 @@ const state: ExampleAppState = {
             first: 2,
             second: 3,
         },
-        splitPercentage: 40,
+        splitPercentage: 45,
     }
 };
 
