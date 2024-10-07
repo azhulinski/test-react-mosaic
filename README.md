@@ -15,3 +15,5 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+[Docker Image](https://hub.docker.com/repository/docker/zhulinski/test-react-mosaic/general)
