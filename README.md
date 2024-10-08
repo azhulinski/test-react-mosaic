@@ -3,7 +3,7 @@
 # Getting Started
 
 Install dependencies
-### `npm install --force`
+### `npm install`
 
 In the folder `public/fake_api_json` find two json files
 You can create your own fake API using [Fake Api](https://mocki.io/fake-json-api)
